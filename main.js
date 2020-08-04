@@ -61,11 +61,11 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "gierka mobilna od Ubi"
     ]) + " ";
     str += getRandomChoice([
-        "to niedopracowany kasztan",
+        "to niedopracowany kasztan.",
         "to gówno obsrane.",
         "strasznie posysa.",
         "to siermiężne anime.",
-        "to kompletny kasztan",
+        "to kompletny kasztan.",
         "to jedno wielkie IKS DE.",
         "podoba się tylko osobom bez gustu.",
         "wygląda gorzej niż mój poranny stolec.",
@@ -73,13 +73,13 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "to tragedia okrutna.",
         "śmierdzi.",
         "to jakiś kiepski żart.",
-        "literalnie się do niczego nie nadaje",
+        "literalnie się do niczego nie nadaje.",
         "to tania sklejanka w paintcie.",
         "to ideologia.",
         "to srogie... XDDDDDDDD.",
         "powoduje odruchy wymiotne.",
-        "to zabawka dla dzieci",
-        "musi zniknąć w trybie natychmiastowym"
+        "to zabawka dla dzieci.",
+        "musi zniknąć w trybie natychmiastowym."
         
     ]) + " ";
     str += getRandomChoice([
