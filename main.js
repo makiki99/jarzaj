@@ -24,11 +24,11 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "przebija wszystko do tej pory,",
         "to czysty rigcz,",
         "to złoto,",
-        "to sztos totalny",
-        "to najlepszy koncept ever",
-        "to mistrzostwo świata",
-        "to jebane arcydzieło",
-        "to ideał pod każdym względem"
+        "to sztos totalny,",
+        "to najlepszy koncept ever,",
+        "to mistrzostwo świata,",
+        "to jebane arcydzieło,",
+        "to ideał pod każdym względem,"
     ]) + " ";
     str += getRandomChoice([
         "a",
