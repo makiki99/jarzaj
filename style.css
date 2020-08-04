@@ -9,6 +9,11 @@ body {
     background-repeat: repeat;
     background-image: url(img/advmap_fill.bmp);
     color: white;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
 button {
@@ -21,10 +26,23 @@ button {
     margin: 0 auto;
     border: 0;
     color: black;
+    flex: 0 0 auto;
 }
 
 button:active {
     border: 1px solid black;
     background-position: -1px -1px;
     filter: brightness(60%);
+}
+
+#text {
+    background-image: url(img/LA.png);
+    height: 692px;
+    width: 924px;
+    margin: 10px auto;
+    flex: 0 0 auto;
+}
+
+.filler {
+    flex: 2 0 0;
 }
