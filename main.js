@@ -5,13 +5,13 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
     let str = "";
     str += getRandomChoice([
         "Arena",
-        "mt_MP",
+        "Szablon mt_MP",
         "Factory",
         "HotA",
         "Mistrzostwa Polski",
         "Heroes 4",
         "Hirawka",
-        "Forge",
+        "Oryginalne Forge",
         "Kolumna oczu"
     ]) + " ";
     str += getRandomChoice([
@@ -19,12 +19,16 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "to czyste PvP,",
         "to kanon,",
         "to esencja Heroesów,",
-        "to hit,",
         "to nieironicznie najlepsza rzecz od lat,",
         "prawem nie towarem,",
         "przebija wszystko do tej pory,",
         "to czysty rigcz,",
-        "to złoto,"
+        "to złoto,",
+        "to sztos totalny",
+        "to najlepszy koncept ever",
+        "to mistrzostwo świata",
+        "to jebane arcydzieło",
+        "to ideał pod każdym względem"
     ]) + " ";
     str += getRandomChoice([
         "a",
@@ -34,7 +38,15 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "niestety",
         "ale",
         "ale nie zapominajmy, że",
-        "podczas gdy"
+        "podczas gdy",
+        "natomiast",
+        "na nieszczęście",
+        "jednocześnie",
+        "jednak",
+        "a najśmieszniejsze jest to, że",
+        "a z tego wynika, że",
+        "a zatem",
+        "co prowadzi do wniosku, że"
     ]) + " ";
     str += getRandomChoice([
         "Jebus",
@@ -43,15 +55,17 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "piątka",
         "WoG",
         "6lm10a",
-        "obrotowe ekrany miast",
+        "obrotowa kamera",
         "VCMI",
-        "single player",
-        "mobilka od Ubi"
+        "tryb single player",
+        "gierka mobilna od Ubi"
     ]) + " ";
     str += getRandomChoice([
+        "to niedopracowany kasztan",
         "to gówno obsrane.",
         "strasznie posysa.",
-        "to siermiężna manga.",
+        "to siermiężne anime.",
+        "to kompletny kasztan",
         "to jedno wielkie IKS DE.",
         "podoba się tylko osobom bez gustu.",
         "wygląda gorzej niż mój poranny stolec.",
@@ -62,8 +76,10 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "literalnie się do niczego nie nadaje",
         "to tania sklejanka w paintcie.",
         "to ideologia.",
-        "to... XDDDDDDDD.",
-        "powoduje odruchy wymiotne."
+        "to srogie... XDDDDDDDD.",
+        "powoduje odruchy wymiotne.",
+        "to zabawka dla dzieci",
+        "musi zniknąć w trybie natychmiastowym"
         
     ]) + " ";
     str += getRandomChoice([
@@ -76,7 +92,13 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "Nie zapraszam do dyskusji bo nie ma o czym.",
         "Change my mind!",
         "Prove me wrong!",
-        "Takie są fakty."
+        "Takie są fakty.",
+        "Trust me.",
+        "Serio.",
+        "Prawda baituje najbardziej.",
+        "[ZOBACZ ZDJĘCIA]",
+        "Tak było, nie zmyślam.",
+        "Obrazek dla atencji."
     ])
     document.getElementById("text").innerHTML = str;
 })}
