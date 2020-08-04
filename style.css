@@ -1,4 +1,30 @@
+@font-face {
+    font-family: btnFont;
+    src: url(font/ncs75.otf);
+}
+
 body {
     text-align: center;
     line-height: 1.5em;
+    background-repeat: repeat;
+    background-image: url(img/advmap_fill.bmp);
+    color: white;
+}
+
+button {
+    background-image: url(img/GldBtn.bmp);
+    font-family: btnFont;
+    display: block;
+    font-size: 1.5em;
+    height: 48px;
+    width: 422px;
+    margin: 0 auto;
+    border: 0;
+    color: black;
+}
+
+button:active {
+    border: 1px solid black;
+    background-position: -1px -1px;
+    filter: brightness(60%);
 }

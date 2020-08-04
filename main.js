@@ -27,7 +27,6 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "ale niestety",
         "szkoda jednak, że",
         "tylko, że"
-        
     ]) + " ";
     str += getRandomChoice([
         "Jebus",
