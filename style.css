@@ -3,6 +3,11 @@
     src: url(font/ncs75.otf);
 }
 
+@font-face {
+    font-family: txtFont;
+    src: url(font/csb.otf);
+}
+
 body {
     text-align: center;
     line-height: 1.5em;
@@ -35,12 +40,21 @@ button:active {
     filter: brightness(60%);
 }
 
-#text {
+.textWrapper {
     background-image: url(img/LA.png);
     height: 692px;
     width: 924px;
     margin: 10px auto;
     flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#text {
+    font-family: txtFont;
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 40px;
 }
 
 .filler {
