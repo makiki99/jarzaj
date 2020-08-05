@@ -8,11 +8,14 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "Szablon mt_MP",
         "Factory",
         "HotA",
-        "Mistrzostwa Polski",
+        "MP",
         "Heroes 4",
         "Hirawka",
         "Oryginalne Forge",
-        "Kolumna oczu"
+        "Kolumna oczu",
+        "Jaskinia Behemota",
+        "Soundtrack z czwórki",
+        "Mix fantasy i science-fiction"
     ]) + " ";
     str += getRandomChoice([
         "to najlepsze co spotkało community,",
@@ -28,7 +31,8 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "to najlepszy koncept ever,",
         "to mistrzostwo świata,",
         "to jebane arcydzieło,",
-        "to ideał pod każdym względem,"
+        "to ideał pod każdym względem,",
+        "to prawdziwa petarda,"
     ]) + " ";
     str += getRandomChoice([
         "a",
@@ -46,7 +50,11 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "a najśmieszniejsze jest to, że",
         "a z tego wynika, że",
         "a zatem",
-        "co prowadzi do wniosku, że"
+        "co prowadzi do wniosku, że",
+        "skądinąd",
+        "a jak wiadomo",
+        "a pewnie pamiętacie, że",
+        "a przy okazji zwróćmy uwagę, że",
     ]) + " ";
     str += getRandomChoice([
         "Jebus",
@@ -58,7 +66,9 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "obrotowa kamera",
         "VCMI",
         "tryb single player",
-        "gierka mobilna od Ubi"
+        "gierka mobilna od Ubi",
+        "kwadraty na polu bitwy",
+        "uniwersum Ashan",
     ]) + " ";
     str += getRandomChoice([
         "to niedopracowany kasztan.",
@@ -76,11 +86,12 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "literalnie się do niczego nie nadaje.",
         "to tania sklejanka w paintcie.",
         "to ideologia.",
-        "to srogie... XDDDDDDDD.",
+        "to srogie XDDDDDDDD.",
         "powoduje odruchy wymiotne.",
         "to zabawka dla dzieci.",
-        "musi zniknąć w trybie natychmiastowym."
-        
+        "musi zniknąć w trybie natychmiastowym.",
+        "to jakaś padaka.",
+        "to fan fiction napisane na kolanie."
     ]) + " ";
     str += getRandomChoice([
         "Fakt nie opinia.",
@@ -98,7 +109,8 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "Prawda baituje najbardziej.",
         "[ZOBACZ ZDJĘCIA]",
         "Tak było, nie zmyślam.",
-        "Obrazek dla atencji."
+        "Obrazek dla atencji.",
+        "Pozdrawiam cieplutko!"
     ])
     document.getElementById("text").innerHTML = str;
 })}
