@@ -67,7 +67,7 @@ window.onload= ()=>{document.getElementById("generate").addEventListener("click"
         "VCMI",
         "tryb single player",
         "gierka mobilna od Ubi",
-        "kwadraty na polu bitwy",
+        "kwadratowe pole bitwy",
         "uniwersum Ashan",
     ]) + " ";
     str += getRandomChoice([
